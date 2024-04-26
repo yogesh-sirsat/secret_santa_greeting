@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  cursor: none !important;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+
+body {
+  background:
+    linear-gradient(180deg, rgba(0, 16, 91, 1) 0%, rgba(9, 9, 121, 1) 100%, rgba(43, 123, 194, 1) 100%);
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  border: 1px solid transparent;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+
+
+/* Webkit (Chrome and Safari) */
+/* Style the scrollbar track */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: rgb(192 132 252);
+  border-radius: 6px;
+}
+
+/* Firefox */
+/* Style the scrollbar track */
+::-moz-scrollbar {
+  width: 8px;
+}
+
+/* Style the scrollbar thumb */
+::-moz-scrollbar-thumb {
+  background: rgb(192 132 252);
+  border-radius: 6px;
+}

@@ -1,0 +1,19 @@
+#xmas-main {
+    background-image: url(/SVG/main.svg);
+}
+
+#moon {
+    background-image: url(/SVG/moon.svg);
+}
+
+#sky-bg {
+    background-image: url(/SVG/sky_bg.svg);
+}
+
+#buildings {
+    background-image: url(/SVG/buildings.svg);
+}
+
+#lightings {
+    background-image: url(/SVG/lightings.svg);
+}
